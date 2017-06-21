@@ -19,12 +19,12 @@ public class Arrays {
 
         // Declare and initialize an array of integers
         int[] numbers = {1, 2, 6, 9, 10, 14, 17, 20, 24, 42, 45, 85};
-
         // Loop over the array and print each number
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
     }
+
 
     public static void arrayCreation() {
 
@@ -43,7 +43,5 @@ public class Arrays {
         for (int j : someOtherInts) {
             System.out.println(j);
         }
-
-
     }
 }
